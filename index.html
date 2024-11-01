@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natalart</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/style/index.css">
+</head>
+
+<body>
+    <header>
+        <nav id="header-nav-box">
+            <ul id="nav-itens-box">
+                <li id="home-link"><a href="#">Natalart</a></li>
+                <li class="nav-item-link on-aim"><a href="#gallery-section">Galeria</a></li>
+                <li class="nav-item-link on-aim"><a href="#">Novidades</a></li>
+                <li class="nav-item-link on-aim"><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+
+        <div id="search-box">
+            <form id="search-field">
+                <input type="text" placeholder="Procurar...">
+                <button class="on-aim"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+
+        <div id="user-menu-box">
+            <div class="user-menu-link on-aim">
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+            </div>
+            <div class="user-menu-link on-aim">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/images/Parque-da-Cidade-Dom-Nivaldo-Monte1.jpg"
+                    alt="parque da cidade"></div>
+            <div class="swiper-slide"><img src="assets/images/catedral.jpg" alt="catedral"></div>
+            <div class="swiper-slide"><img src="assets/images/beco.jpeg" alt="paredes pintadas"></div>
+            <div class="swiper-slide"><img src="assets/images/casa-da-mae-terra.webp" alt="mãe terra"></div>
+        </div>
+
+        <div class="swiper-button-next on-aim"></div>
+
+        <div class="swiper-button-prev on-aim"></div>
+    </section>
+
+    <section id="general-infos-section">
+        <ul id="general-infos-box">
+            <li class="general-info-box">
+                <div class="general-info-icon">
+                    <i class="fa-solid fa-image"></i>
+                </div>
+
+                <div class="general-info-descripition">
+                    <h1>Autêntica, arte feita à mão</h1>
+                    <p>Compre arte original, única e acessível de milhares de artistas por toda Natal.</p>
+                </div>
+            </li>
+
+            <li class="general-info-box">
+                <div class="general-info-icon">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+
+                <div class="general-info-descripition">
+                    <h1>Apoie artistas independentes</h1>
+                    <p>Compre diretamente de um artista, ajudando-o a ganhar a vida fazendo o que ama.</p>
+                </div>
+            </li>
+
+            <li class="general-info-box">
+                <div class="general-info-icon">
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+
+                <div class="general-info-descripition">
+                    <h1>Compra sem riscos</h1>
+                    <p>Transações seguras, devoluções gratuitas em até 14 dias. Tranquilidade total garantida.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <main id="gallery-section">
+        <span class="title-section-box">
+            <h1>Galeria</h1>
+        </span>
+
+        <div id="gallery-section-arts-box">
+            <div class="art-preview-container">
+                <a href="#">
+                    <div class="art-image art-preview-box insert-image"><img src="data/artworks/teste_arte.jpg"
+                            alt="Van Gogh"></div>
+
+                    <div class="artist-profile-preview art-preview-box">
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/perfil1.jpeg" alt=""></div>
+
+                        <div class="artist-infos-box">
+                            <div class="artist-name">Pedro Cavalcanti</div>
+
+                            <div class="artist-district">Candelária</div>
+
+                            <div class="artist-avaliation">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="art-preview-container">
+                <a href="#">
+                    <div class="art-image art-preview-box insert-image"><img src="data/artworks/predios.jpg"
+                            alt="Van Gogh"></div>
+
+                    <div class="artist-profile-preview art-preview-box">
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+
+                        <div class="artist-infos-box">
+                            <div class="artist-name">Artista 1</div>
+
+                            <div class="artist-district">Lagoa Nova</div>
+
+                            <div class="artist-avaliation">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="art-preview-container">
+                <a href="#">
+                    <div class="art-image art-preview-box insert-image"><img src="data/artworks/pop.jpg"
+                            alt="Van Gogh"></div>
+
+                    <div class="artist-profile-preview art-preview-box">
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+
+                        <div class="artist-infos-box">
+                            <div class="artist-name">Artista 2</div>
+
+                            <div class="artist-district">Tirol</div>
+
+                            <div class="artist-avaliation">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="art-preview-container">
+                <a href="#">
+                    <div class="art-image art-preview-box insert-image"><img src="data/artworks/olho.png"
+                            alt="Van Gogh"></div>
+
+                    <div class="artist-profile-preview art-preview-box">
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+
+                        <div class="artist-infos-box">
+                            <div class="artist-name">Artista 3</div>
+
+                            <div class="artist-district">Capim Macio</div>
+
+                            <div class="artist-avaliation">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="art-preview-container">
+                <a href="#">
+                    <div class="art-image art-preview-box insert-image"><img src="data/artworks/escultura_madeira.jpg"
+                            alt="Van Gogh"></div>
+
+                    <div class="artist-profile-preview art-preview-box">
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+
+                        <div class="artist-infos-box">
+                            <div class="artist-name">Artista 4</div>
+
+                            <div class="artist-district">Lagoa Nova</div>
+
+                            <div class="artist-avaliation">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="art-preview-container">
+                <a href="#">
+                    <div class="art-image art-preview-box insert-image"><img src="data/artworks/escultura.jpg"
+                            alt="Van Gogh"></div>
+
+                    <div class="artist-profile-preview art-preview-box">
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+
+                        <div class="artist-infos-box">
+                            <div class="artist-name">Artista 5</div>
+
+                            <div class="artist-district">Planalto</div>
+
+                            <div class="artist-avaliation">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="art-preview-container">
+                <a href="#">
+                    <div class="art-image art-preview-box insert-image"><img src="data/artworks/artesanato-bahiano.jpg"
+                            alt="Van Gogh"></div>
+
+                    <div class="artist-profile-preview art-preview-box">
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+
+                        <div class="artist-infos-box">
+                            <div class="artist-name">Artista 6</div>
+
+                            <div class="artist-district">Redinha</div>
+
+                            <div class="artist-avaliation">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="art-preview-container">
+                <a href="#">
+                    <div class="art-image art-preview-box insert-image"><img src="data/artworks/abaporu.jpg"
+                            alt="Van Gogh"></div>
+
+                    <div class="artist-profile-preview art-preview-box">
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+
+                        <div class="artist-infos-box">
+                            <div class="artist-name">Artista 7</div>
+
+                            <div class="artist-district">Rocas</div>
+
+                            <div class="artist-avaliation">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="show-more" class="on-aim">
+            <button>Mostrar mais...</button>
+        </div>
+        
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>

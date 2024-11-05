@@ -12,21 +12,21 @@
 
 <body>
     <header>
-        <nav id="header-nav-box">
+        <nav>
             <ul id="nav-itens-box">
                 <li id="home-link"><a href="#">Natalart</a></li>
                 <li class="nav-item-link on-aim"><a href="#gallery-section">Galeria</a></li>
-                <li class="nav-item-link on-aim"><a href="#">Novidades</a></li>
-                <li class="nav-item-link on-aim"><a href="#">Suporte</a></li>
+                <li class="nav-item-link on-aim"><a href="#news-section">Novidades</a></li>
+                <li class="nav-item-link on-aim"><a href="#footer-right-box">Suporte</a></li>
             </ul>
         </nav>
 
-        <div id="search-box">
-            <form id="search-field">
+        <form>
+            <div class="input-field">
                 <input type="text" placeholder="Procurar...">
-                <button class="on-aim"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-        </div>
+                <button id="search-button" class="on-aim"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
 
         <div id="user-menu-box">
             <div class="user-menu-link on-aim">
@@ -126,7 +126,8 @@
                             alt="Van Gogh"></div>
 
                     <div class="artist-profile-preview art-preview-box">
-                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt="">
+                        </div>
 
                         <div class="artist-infos-box">
                             <div class="artist-name">Artista 1</div>
@@ -147,11 +148,12 @@
 
             <div class="art-preview-container">
                 <a href="#">
-                    <div class="art-image art-preview-box insert-image"><img src="data/artworks/pop.jpg"
-                            alt="Van Gogh"></div>
+                    <div class="art-image art-preview-box insert-image"><img src="data/artworks/pop.jpg" alt="Van Gogh">
+                    </div>
 
                     <div class="artist-profile-preview art-preview-box">
-                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt="">
+                        </div>
 
                         <div class="artist-infos-box">
                             <div class="artist-name">Artista 2</div>
@@ -176,7 +178,8 @@
                             alt="Van Gogh"></div>
 
                     <div class="artist-profile-preview art-preview-box">
-                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt="">
+                        </div>
 
                         <div class="artist-infos-box">
                             <div class="artist-name">Artista 3</div>
@@ -201,7 +204,8 @@
                             alt="Van Gogh"></div>
 
                     <div class="artist-profile-preview art-preview-box">
-                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt="">
+                        </div>
 
                         <div class="artist-infos-box">
                             <div class="artist-name">Artista 4</div>
@@ -226,7 +230,8 @@
                             alt="Van Gogh"></div>
 
                     <div class="artist-profile-preview art-preview-box">
-                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt="">
+                        </div>
 
                         <div class="artist-infos-box">
                             <div class="artist-name">Artista 5</div>
@@ -251,7 +256,8 @@
                             alt="Van Gogh"></div>
 
                     <div class="artist-profile-preview art-preview-box">
-                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt="">
+                        </div>
 
                         <div class="artist-infos-box">
                             <div class="artist-name">Artista 6</div>
@@ -276,7 +282,8 @@
                             alt="Van Gogh"></div>
 
                     <div class="artist-profile-preview art-preview-box">
-                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt=""></div>
+                        <div class="artist-avatar insert-image"><img src="data/profile-pics/fundo-preto.png" alt="">
+                        </div>
 
                         <div class="artist-infos-box">
                             <div class="artist-name">Artista 7</div>
@@ -299,15 +306,90 @@
         <div id="show-more" class="on-aim">
             <button>Mostrar mais...</button>
         </div>
-        
     </main>
+
+    <section id="news-section">
+        <span class="title-section-box">
+            <h1>Novidades</h1>
+        </span>
+
+        <div id="news-info-join-box">
+            <span id="newsletter-info">
+                Fique por dentro das novidades através do nosso jornal virtual, basta entrar
+                com sua conta abaixo. Não se preocupe com spam, apenas te enviaremos
+                notícias relevantes!
+            </span>
+
+            <form id="newsletter-join">
+                <div class="input-field"><input type="email" placeholder="Endereço de e-mail"></div>
+                <button id="newsletter-login-button" class="on-aim" type="submit">Entrar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer-left-box">
+            <nav id="footer-nav-menu">
+                <ul class="footer-list-menu">
+                    <li class="footer-list-menu-title">Para compradores</li>
+                    <li><a href="#">Configurações de conta</a></li>
+                    <li><a href="#">Carrinho</a></li>
+                    <li><a href="#">Meus pedidos</a></li>
+                    <li><a href="#">Comprar como presente</a></li>
+                    <li><a href="#">Convidar amigos</a></li>
+                    <li><a href="#">Reembolso</a></li>
+                </ul>
+
+                <ul class="footer-list-menu">
+                    <li class="footer-list-menu-title">Para artistas</li>
+                    <li><a href="#">Por que vender na Natalart?</a></li>
+                    <li><a href="#">Termos e condicões</a></li>
+                    <li><a href="#">Quero vender</a></li>
+                    <li><a href="#">Como vender arte on-line?</a></li>
+                </ul>
+
+                <ul class="footer-list-menu">
+                    <li class="footer-list-menu-title">Obras de arte</li>
+                    <li><a href="#">Pinturas</a></li>
+                    <li><a href="#">Fotografias</a></li>
+                    <li><a href="#">Ilustrações</a></li>
+                    <li><a href="#">Arquitetura</a></li>
+                    <li><a href="#">Esculturas</a></li>
+                    <li><a href="#">Desenhos</a></li>
+                </ul>
+            </nav>
+
+            <span>© Natalart 2024 | Terms of Use | Privacy Policy</span>
+        </div>
+
+        <div id="footer-right-box">
+            <ul class="footer-list-menu">
+                <li class="footer-list-menu-title">Suporte</li>
+                <li>Contato:</li>
+                <li>(84) 99999-9999</li>
+                <li id="suport-divisor">(84) 99999-9999</li>
+                <li>E-mail:</li>
+                <li>suportenatalart@email.com</li>
+            </ul>
+
+            <ul id="footer-social-media-menu">
+                <li class="footer-list-menu-title">Redes sociais</li>
+                <div id="social-media-links">
+                    <li class="on-aim"><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li class="on-aim"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="on-aim"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="on-aim"><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li class="on-aim"><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                </div>
+            </ul>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
         integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/index.js"></script>
-
 </body>
 
 </html>

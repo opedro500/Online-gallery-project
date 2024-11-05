@@ -24,6 +24,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--color-light-100);
     scroll-behavior: smooth;
+    min-width: 400px;
 }
 
 .on-aim {
@@ -47,7 +48,7 @@ header {
     background-color: var(--color-light-400);
 }
 
-#nav-itens-box {
+header #nav-menu-box {
     display: flex;
     list-style: none;
     gap: 70px;
@@ -74,7 +75,6 @@ header {
 .input-field {
     display: flex;
     align-items: center;
-    height: 6vh;
     padding: 14px;
     gap: 10px;
     border: 1px solid var(--color-blue-800);
@@ -85,7 +85,7 @@ header {
 .input-field input {
     border: none;
     background-color: transparent;
-    width: 16vw;
+    width: 250px;
     font-size: 1rem;
     color: var(--color-blue-800);
 }
@@ -211,12 +211,17 @@ header {
 
 #gallery-section-arts-box {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    justify-items: center;
+    justify-content: center;
+    padding: 0px 8vw 0px 8vw;
     gap: 50px;
 }
 
 .art-preview-container {
     padding: 32px;
+    width: 360px;
     background-color: var(--color-light-400);
     border: 1px solid var(--color-blue-800);
     transition: box-shadow 0.3s ease;
@@ -318,7 +323,6 @@ header {
     color: var(--color-light-100);
     border: none;
     cursor: pointer;
-    height: 6vh;
     width: 100px;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -348,7 +352,7 @@ footer {
     color: var(--color-light-100);
 }
 
-#footer-nav-menu {
+footer #nav-menu-box {
     display: flex;
     gap: 50px;
 }
@@ -386,4 +390,66 @@ footer {
 
 #footer-social-media-menu {
     list-style: none;
+}
+
+@media screen and (max-width : 1280px){
+    header {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .swiper {
+        height: 40vh;
+    }
+
+    header #nav-menu-box {
+        gap: 30px;
+    }
+
+    #newsletter-info {
+        width: 60vw;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    #footer-left-box {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width : 900px){
+    .swiper {
+        height: 30vh;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+    padding: 35px;
+    }
+
+    #general-infos-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width : 770px){
+    header #nav-menu-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer #nav-menu-box {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 450px){
+    #news-section .input-field input {
+        width: 180px;
+    }
 }

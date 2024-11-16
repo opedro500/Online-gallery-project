@@ -51,7 +51,7 @@ header {
 header #nav-menu-box {
     display: flex;
     list-style: none;
-    gap: 70px;
+    gap: 3.5vw;
     align-items: center;
 }
 

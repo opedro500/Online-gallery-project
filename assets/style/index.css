@@ -51,7 +51,7 @@ header {
 header #nav-menu-box {
     display: flex;
     list-style: none;
-    gap: 70px;
+    gap: 3.5vw;
     align-items: center;
 }
 
@@ -310,7 +310,7 @@ header #nav-menu-box {
 #newsletter-info {
     text-align: center;
     font-size: 1.4rem;
-    width: 38vw;
+    width: 720px;
 }
 
 #newsletter-join {
